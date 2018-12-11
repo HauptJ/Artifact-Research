@@ -13,5 +13,16 @@
 - http://jdgreen.io/export-vms-via-command-line-using-ovf-tool/
 - https://kb.vmware.com/s/article/1038709?lang=en_US
 
+### Libvert / QEME
+- https://en.wikibooks.org/wiki/QEMU/Images
+
 ### Process
 ./build.sh --> vagrant up && vagrant provision --> export vm --> convert VM image to RAW for bare metal
+
+### Pros
+1. Uses as few tools as possible
+2. Easy to script
+
+
+### Cons
+1. Does not support exporting images to public cloud platforms
