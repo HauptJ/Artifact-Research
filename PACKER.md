@@ -15,7 +15,7 @@
 
 ### Cons:
 1. Does not directly support bare metal
-    - [However, it may be possible to convert a VBox artifact to a bare metal image](https://github.com/viralpoetry/packer-bare-metal)
+    - [However, it may be possible to convert a VBox and Libvert artifact images to a bare metal image](https://github.com/viralpoetry/packer-bare-metal)
     - https://askubuntu.com/questions/32499/migrate-from-a-virtual-machine-vm-to-a-physical-system
 2. CenturyLink cloud is not listed as supported
 
