@@ -1,3 +1,5 @@
+## Exporting Vagrant VM as an image
+
 **IDEA:** Many hypervisors enable exporting an image via CLI and this could be utilized in conjunction with Vagrant which would be used to provision the VM.
 
 
