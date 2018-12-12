@@ -19,6 +19,22 @@
     - https://askubuntu.com/questions/32499/migrate-from-a-virtual-machine-vm-to-a-physical-system
 2. CenturyLink cloud is not listed as supported
 
+### VirtualBox
+- #### Exporting images
+    - https://www.techrepublic.com/article/how-to-import-and-export-virtualbox-appliances-from-the-command-line/
+
+### HyperV
+- #### Exporting images
+    - https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/deploy/export-and-import-virtual-machines
+
+### VMWare
+- #### Exporting images
+    - http://jdgreen.io/export-vms-via-command-line-using-ovf-tool/
+    - https://kb.vmware.com/s/article/1038709?lang=en_US
+
+### Libvert / QEME
+- https://en.wikibooks.org/wiki/QEMU/Images
+
 ### Stateful data
 Stateful data can be managed using a Vagrant or VB guest additions host to guest directory sharing.
 
@@ -29,3 +45,6 @@ However, it may be possible to share the same directory on the host machine with
 
 ### Demos
 1. [Building an AMI](https://www.packer.io/intro/getting-started/build-image.html)
+
+### Example
+- [Vagrant in a Vagrant Box](https://github.com/HauptJ/Vagrant-CentOS-7-HyperV-Gen-2)
