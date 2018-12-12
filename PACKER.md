@@ -36,12 +36,13 @@
 - https://en.wikibooks.org/wiki/QEMU/Images
 
 ### Stateful data
-Stateful data can be managed using a Vagrant or VB guest additions host to guest directory sharing.
+Stateful data can be managed using a Vagrant Box, VB guest additions host to guest directory sharing, SMB (Hyber-V), etc.
 
 ### Upgradability
-If as many configuration steps as possible are baked into the image, upgrading should be very quick. 
-However, it may be possible to share the same directory on the host machine with multiple VM's allowing a new version to start up while the previous version continues to run.
-**NOTE:** I have not tested this with persistent databases.
+- A fresh image can be build for each deployment
+- If as many configuration steps as possible are baked into the image, upgrading should be very quick. 
+- It may be possible to share the same directory on the host machine with multiple VM's allowing a new version to start up while the previous version continues to run.
+    - **NOTE:** I have not tested this with persistent databases.
 
 ### Demos
 1. [Building an AMI](https://www.packer.io/intro/getting-started/build-image.html)
