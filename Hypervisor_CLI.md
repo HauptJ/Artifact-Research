@@ -5,17 +5,17 @@
 **NOTE:** ~~This is the overall simplest method~~
 
 ### VirtualBox
-- #### Exporting images
+- #### Exporting Images
     - https://www.techrepublic.com/article/how-to-import-and-export-virtualbox-appliances-from-the-command-line/
 - #### Executing scripts in guest OS
     - [vbmanage](https://askubuntu.com/questions/490420/how-to-launch-a-script-inside-a-vm-from-the-host)
 
-### HyperV
-- #### Exporting images
+### Hyper- V
+- #### Exporting Images
     - https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/deploy/export-and-import-virtual-machines
 
 ### VMWare
-- #### Exporting images
+- #### Exporting Images
     - http://jdgreen.io/export-vms-via-command-line-using-ovf-tool/
     - https://kb.vmware.com/s/article/1038709?lang=en_US
 - #### Executing scripts in guest OS
@@ -38,7 +38,7 @@
 
 ### Stateful data
 Stateful data can be managed using a Host to Guest directory sharing.
-- #### HyperV
+- #### Hyper-V
     - Implemented with SMB
 - #### Virtualbox
     - Requires Guest Additions

@@ -1,4 +1,4 @@
-## Exporting Vagrant VM as a new Vagrant VM
+## Exporting a Vagrant VM as a new Vagrant VM
 
 **IDEA:** Many hypervisors enable exporting an image via CLI and this could be utilized in conjunction with Vagrant which would be used to provision the VM. Some HyperVisors also support executing a script on the guest OS.
 
@@ -9,7 +9,7 @@
 - #### Exporting images
     - https://www.techrepublic.com/article/how-to-import-and-export-virtualbox-appliances-from-the-command-line/
 
-### HyperV
+### Hyper-V
 - #### Exporting images
     - https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/deploy/export-and-import-virtual-machines
 
